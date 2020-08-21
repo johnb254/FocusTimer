@@ -36,6 +36,7 @@ namespace FocusTimerPrototype {
                 breakPage.Activate();
 
                 FocusTimer.Stop();
+                Taskbar.Show();
                 this.Hide();
             }
             this.Activate();
@@ -46,7 +47,9 @@ namespace FocusTimerPrototype {
             setup.Show();
             setup.SetDesktopLocation(this.Bounds.X, this.Bounds.Y);
 
-            this.Close();
+            FocusTimer.Stop();
+            Taskbar.Show();
+            this.Hide();
         }
 
         private void FocusPage_Load(object sender, EventArgs e) {

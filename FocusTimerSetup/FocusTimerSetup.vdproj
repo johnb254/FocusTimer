@@ -15,26 +15,26 @@
     {
         "Entry"
         {
+        "MsmKey" = "8:_25FCF9D93C525566D4B6D2CA87586C24"
+        "OwnerKey" = "8:_28232335456F478DA6F38A9776E57D92"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_28232335456F478DA6F38A9776E57D92"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_41E2850B1F4BA081664F91013BC7BDE3"
-        "OwnerKey" = "8:_28232335456F478DA6F38A9776E57D92"
+        "MsmKey" = "8:_3B4BDFF8B4BD440C91F7227E247AF02D"
+        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_790D6B864A560299A62DD26FE52C1886"
+        "MsmKey" = "8:_4C4770262C2BFCBD0A59F18BE036EF71"
         "OwnerKey" = "8:_28232335456F478DA6F38A9776E57D92"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_41E2850B1F4BA081664F91013BC7BDE3"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -46,7 +46,13 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_790D6B864A560299A62DD26FE52C1886"
+        "OwnerKey" = "8:_25FCF9D93C525566D4B6D2CA87586C24"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_4C4770262C2BFCBD0A59F18BE036EF71"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -67,6 +73,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
+            }
         }
         "Release"
         {
@@ -83,6 +105,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
+            }
         }
     }
     "Deployable"
@@ -112,23 +150,23 @@
         }
         "File"
         {
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_41E2850B1F4BA081664F91013BC7BDE3"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_25FCF9D93C525566D4B6D2CA87586C24"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:System.Net.Http, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
+            "AssemblyAsmDisplayName" = "8:Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_41E2850B1F4BA081664F91013BC7BDE3"
+                    "_25FCF9D93C525566D4B6D2CA87586C24"
                     {
-                    "Name" = "8:System.Net.Http.dll"
+                    "Name" = "8:Newtonsoft.Json.dll"
                     "Attributes" = "3:512"
                     }
                 }
-            "SourcePath" = "8:System.Net.Http.dll"
+            "SourcePath" = "8:Newtonsoft.Json.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
-            "Folder" = "8:_2434A94918BB4459A5EEDA1F2F5C917B"
+            "Folder" = "8:_F104D38DE7854910A03195D6C492A055"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -143,23 +181,43 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_790D6B864A560299A62DD26FE52C1886"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_3B4BDFF8B4BD440C91F7227E247AF02D"
+            {
+            "SourcePath" = "8:..\\..\\..\\Documents\\StoredData.json"
+            "TargetName" = "8:StoredData.json"
+            "Tag" = "8:"
+            "Folder" = "8:_F104D38DE7854910A03195D6C492A055"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_4C4770262C2BFCBD0A59F18BE036EF71"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:System.Net.Http, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
                 "ScatterAssemblies"
                 {
-                    "_790D6B864A560299A62DD26FE52C1886"
+                    "_4C4770262C2BFCBD0A59F18BE036EF71"
                     {
-                    "Name" = "8:Newtonsoft.Json.dll"
+                    "Name" = "8:System.Net.Http.dll"
                     "Attributes" = "3:512"
                     }
                 }
-            "SourcePath" = "8:Newtonsoft.Json.dll"
+            "SourcePath" = "8:System.Net.Http.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
-            "Folder" = "8:_2434A94918BB4459A5EEDA1F2F5C917B"
+            "Folder" = "8:_F104D38DE7854910A03195D6C492A055"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -219,6 +277,17 @@
                             "Property" = "8:_E26D33DB20F14752A8B29DA2BF48F205"
                                 "Folders"
                                 {
+                                    "{9EF0B969-E518-4E46-987F-47570745A589}:_F104D38DE7854910A03195D6C492A055"
+                                    {
+                                    "Name" = "8:bin"
+                                    "AlwaysCreate" = "11:FALSE"
+                                    "Condition" = "8:"
+                                    "Transitive" = "11:FALSE"
+                                    "Property" = "8:_C60224ED034B461486EEAA024D92598F"
+                                        "Folders"
+                                        {
+                                        }
+                                    }
                                 }
                             }
                         }
@@ -253,7 +322,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:FocusTimer"
         "ProductCode" = "8:{70DE2FDF-3EFC-45E6-A5B2-877516FE3AD7}"
-        "PackageCode" = "8:{C5F23BB5-4F69-4F79-89A3-9E2D104D04F9}"
+        "PackageCode" = "8:{3A7C7DD9-4373-4336-B48E-A7A9AB863CDC}"
         "UpgradeCode" = "8:{EB7738C7-275A-49EB-A19F-6AADDD70AAA3}"
         "AspNetVersion" = "8:1.1.4322.0"
         "RestartWWWService" = "11:FALSE"
@@ -791,7 +860,7 @@
             "SourcePath" = "8:..\\FocusTimerPrototype\\obj\\Release\\FocusTimerPrototype.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
-            "Folder" = "8:_2434A94918BB4459A5EEDA1F2F5C917B"
+            "Folder" = "8:_F104D38DE7854910A03195D6C492A055"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"

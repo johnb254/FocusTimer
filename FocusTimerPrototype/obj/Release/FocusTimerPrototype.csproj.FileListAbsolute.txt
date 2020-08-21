@@ -1,0 +1,17 @@
+C:\Users\johnb\source\repos\FocusTimerPrototype\bin\Release\FocusTimerPrototype.exe.config
+C:\Users\johnb\source\repos\FocusTimerPrototype\bin\Release\FocusTimerPrototype.exe
+C:\Users\johnb\source\repos\FocusTimerPrototype\bin\Release\FocusTimerPrototype.pdb
+C:\Users\johnb\source\repos\FocusTimerPrototype\bin\Release\Newtonsoft.Json.dll
+C:\Users\johnb\source\repos\FocusTimerPrototype\bin\Release\Newtonsoft.Json.xml
+C:\Users\johnb\source\repos\FocusTimerPrototype\obj\Release\FocusTimerPrototype.csprojAssemblyReference.cache
+C:\Users\johnb\source\repos\FocusTimerPrototype\obj\Release\FocusTimerPrototype.BreakPage.resources
+C:\Users\johnb\source\repos\FocusTimerPrototype\obj\Release\FocusTimerPrototype.FocusPage.resources
+C:\Users\johnb\source\repos\FocusTimerPrototype\obj\Release\FocusTimerPrototype.PreFocusPage.resources
+C:\Users\johnb\source\repos\FocusTimerPrototype\obj\Release\FocusTimerPrototype.SetupPage.resources
+C:\Users\johnb\source\repos\FocusTimerPrototype\obj\Release\FocusTimerPrototype.StartingPage.resources
+C:\Users\johnb\source\repos\FocusTimerPrototype\obj\Release\FocusTimerPrototype.Properties.Resources.resources
+C:\Users\johnb\source\repos\FocusTimerPrototype\obj\Release\FocusTimerPrototype.csproj.GenerateResource.cache
+C:\Users\johnb\source\repos\FocusTimerPrototype\obj\Release\FocusTimerPrototype.csproj.CoreCompileInputs.cache
+C:\Users\johnb\source\repos\FocusTimerPrototype\obj\Release\FocusTimerPrototype.csproj.CopyComplete
+C:\Users\johnb\source\repos\FocusTimerPrototype\obj\Release\FocusTimerPrototype.exe
+C:\Users\johnb\source\repos\FocusTimerPrototype\obj\Release\FocusTimerPrototype.pdb

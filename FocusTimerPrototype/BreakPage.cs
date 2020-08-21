@@ -10,6 +10,7 @@ namespace FocusTimerPrototype
         private readonly JObject data;
         private int minutesLeft;
         private int secondsLeft;
+        private readonly bool hideTaskbar;
 
         public BreakPage() {
             InitializeComponent();
@@ -21,6 +22,8 @@ namespace FocusTimerPrototype
             }
             minutesLeft = data.Value<int>("breakTime");
             secondsLeft = 0;
+
+            hideTaskbar = data.Value<bool>("taskbarHide");
         }
 
         private void SetupButton_Click(object sender, EventArgs e) {
@@ -28,10 +31,13 @@ namespace FocusTimerPrototype
             setup.Show();
             setup.SetDesktopLocation(this.Bounds.X, this.Bounds.Y);
 
+            BreakTimer.Stop();
             this.Hide();
         }
 
         private void BreakPage_Load(object sender, EventArgs e) {
+            Taskbar.Show();
+            
             BreakTimerLabel.Text = minutesLeft + ":" + secondsLeft.ToString().PadLeft(2, '0');
             BreakTimer.Start();
         }
@@ -45,6 +51,10 @@ namespace FocusTimerPrototype
                 preFocus.SetDesktopLocation(this.Bounds.X, this.Bounds.Y);
                 preFocus.Activate();
 
+                if (hideTaskbar)
+                {
+                    Taskbar.Hide();
+                }
                 this.Hide();
             }
 
